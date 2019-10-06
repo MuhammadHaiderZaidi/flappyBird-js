@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+     display: flex;  
+     justify-content: space-around;
+     align-items: center;
+     flex-direction: column;
+     font-family: Impact;
+}
+
+.main h1{
+     font-size: xx-large;
+     padding-left: 20%;
+     color: rgb(243, 243, 243);
+}
+ 
+.playButton{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}             
+.playButton button{
+    height:3cm;
+    width: 9cm;
+    border-radius: 60px;
+    cursor: pointer;
+    font-size: xx-large;
+    background-color: gold;
+    color: black;
+    border-color:black;
+    font-family: Impact;
+}
+
+div.inactive{
+    opacity: 0;
+    pointer-events: none;
+}
+
+div.active{
+    opacity: 1;
+    pointer-events: all;
+}
